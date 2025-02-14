@@ -1,0 +1,10 @@
+[
+    {
+        "fullname": "მარიამ",
+        "age": "23",
+        "phone": "+995598271246",
+        "email": "mariam.gamgebeli464@ens.tsu.edu.ge",
+        "password": "scrypt:32768:8:1$5b89sRjEdCOlkp1G$d71d84e1f9013d8425e441db87a430bf6a25d7d5a8d23bdcde44ab8ce27656801bd4a760dcdef11c51bbe1be9dc40090b6f6c521994218e9b67f2f10d7a45dd4",
+        "selected_project": null
+    }
+]

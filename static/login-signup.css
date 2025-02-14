@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('assets.gif');;
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1000px;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 24px;
+    backdrop-filter: blur(3px);
+    color: white;
+  }
+  .form-container h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 320;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+  }
+  .input-box {
+    position: relative;
+    margin: 20px 0;
+  }
+  .input-box input {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    backdrop-filter: blur(1px);
+  }
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: white;
+  }
+  .button {
+    width: 100%;
+    padding: 15px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  .button:hover {
+    background: #007bff;
+    color: white;
+  }
+  .login-link {
+    text-align: center;
+    font-size: 14.5px;
+  }
+  .login-link p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .login-link p a:hover {
+    text-decoration: underline;
+  }
+  #register-form {
+    display: none;
+  }
